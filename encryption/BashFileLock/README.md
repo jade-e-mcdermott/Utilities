@@ -1,7 +1,8 @@
 # encrypt.sh
 Encrypts the contents of a file. -e encrypts the file, -u will unencrypt it.
 Adds a ".encrypt" extension to encrypted files.
-
+Need to add error handling for when password verification fails.
+Need to update encryption method. Current method is deprecated.
 ## Example
 `cd tests`
 Confirm the payload content.
