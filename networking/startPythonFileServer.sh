@@ -10,7 +10,7 @@
 
 pythonPath='python3'
 pathToServe=$1
-cd $pathToServer
+cd $pathToServe
 # Show the current IP before launching the server
 echo "Displaying local machines IP address:"
 ip addr show
